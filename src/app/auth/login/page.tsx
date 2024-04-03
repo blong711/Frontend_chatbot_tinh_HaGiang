@@ -67,7 +67,7 @@ const UserLogin = () => {
               <FormGroup>
               <Button type="button" className="mt-3 px-3 py-2 rounded-lg bg-blue-700 border text-white" onClick={handleLogin}>Login</Button>
               </FormGroup>
-              <p>Don't have account ?<a className="ms-2" href="/register">Create Account</a></p>
+              <p>Don't have account ?<a className="ms-2" href="/auth/register">Create Account</a></p>
             </Form>
           </div>
         </Col>

@@ -85,7 +85,7 @@ const UserRegister = () => {
               <FormGroup>
               <Button type="button" className="mt-3 px-3 py-2 rounded-lg bg-blue-700 border text-white" onClick={handleRegister}>Register</Button>
               </FormGroup>
-              <p>Already have account ?<a className="ms-2" href="auth/login">Sign in</a></p>
+              <p>Already have account ?<a className="ms-2" href="/auth/login">Sign in</a></p>
             </Form>
           </div>
         </Col>
