@@ -11,7 +11,7 @@ export const SidebarLogo = () => {
 
   return (
     <div className="logo-wrapper">
-      <Media href={Href}>{!backgroundChange ? <Image height={35} width={100} className="img-fluid for-light" src={`${ImagePath}/logo/small-logo.png`} alt="logo" /> : backgroundChange || document.body.classList.contains("dark-sidebar") ? <Image className="img-fluid for-dark" height={35} width={100} src={`${ImagePath}/logo/logo_dark.png`} alt="logo" /> : ""}</Media>
+      <h3>ChatBot Hà Giang</h3>
       <div className="back-btn " onClick={() => dispatch(sidebarToggle("close_icon"))}>
         <i className="fa fa-angle-left " />
       </div>
